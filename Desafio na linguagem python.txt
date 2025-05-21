@@ -1,0 +1,56 @@
+Desafio na linguagem python
+
+O Rastreador de Tarefas é um projeto usado para rastrear e gerenciar suas tarefas. Nesta tarefa, 
+você criará uma interface de linha de comando (CLI) simples para rastrear o que precisa fazer, o que já fez e no
+que está trabalhando atualmente. Este projeto ajudará você a praticar suas habilidades de programação,
+incluindo trabalhar com o sistema de arquivos, manipular entradas do usuário e criar uma aplicação CLI simples.
+
+Requisitos
+A aplicação deve ser executada a partir da linha de comando, aceitar ações e entradas do usuário como argumentos
+e armazenar as tarefas em um arquivo JSON. O usuário deve ser capaz de:
+
+Adicionar, Atualizar e Excluir tarefas
+Marcar uma tarefa como em andamento ou concluída
+Listar todas as tarefas
+Listar todas as tarefas concluídas
+Listar todas as tarefas não concluídas
+Listar todas as tarefas em andamento
+Aqui estão algumas restrições para orientar a implementação:
+
+Você pode usar qualquer linguagem de programação para criar este projeto.
+Usar argumentos posicionais na linha de comando para aceitar entradas do usuário.
+Usar um arquivo JSON para armazenar as tarefas no diretório atual.
+O arquivo JSON deve ser criado se não existir.
+Utilize o módulo nativo do sistema de arquivos da sua linguagem de programação para interagir com o arquivo JSON.
+Não utilize nenhuma biblioteca ou framework externo para construir este projeto.
+Certifique-se de lidar com erros e casos extremos com elegância.
+
+Propriedades da Tarefa
+Cada tarefa deve ter as seguintes propriedades:
+
+id: Um identificador exclusivo para a tarefa
+description: Uma breve descrição da tarefa
+status: O status da tarefa (todo, em andamento, concluído)
+createdAt: A data e hora em que a tarefa foi criada
+updatedAt: A data e hora em que a tarefa foi atualizada pela última vez
+Certifique-se de adicionar essas propriedades ao arquivo JSON ao adicionar uma nova tarefa e atualizá-las ao atualizar uma tarefa.
+
+Introdução
+Aqui estão alguns passos para ajudar você a começar a usar o projeto CLI do Task Tracker:
+Configure seu ambiente de desenvolvimento
+Escolha uma linguagem de programação com a qual você se sinta confortável (ex.: Python, JavaScript, etc.).
+Certifique-se de ter um editor de código ou IDE instalado (ex.: VSCode, PyCharm).
+Inicialização do projeto
+Crie um novo diretório de projeto para a CLI do Task Tracker.
+Inicialize um sistema de controle de versão (ex.: Git) para gerenciar seu projeto.
+Implementando recursos
+Comece criando uma estrutura CLI básica para lidar com as entradas do usuário.
+Implemente cada recurso um por um, testando-o cuidadosamente antes de passar para o próximo, por exemplo, implemente adicionando a funcionalidade da tarefa primeiro, listando a próxima, atualizando-a depois, marcando-a como em andamento, etc.
+Teste e depuração
+Teste cada recurso individualmente para garantir que funcionem conforme o esperado. Examine o arquivo JSON para verificar se as tarefas estão sendo armazenadas corretamente.
+Depure quaisquer problemas que surjam durante o desenvolvimento.
+Finalizando o projeto
+Garantir que todos os recursos sejam implementados e testados.
+Resolva seu código e adicione comentários quando necessário.
+Escreva um bom arquivo leia-me sobre como usar a CLI do Task Tracker.
+Ao final deste projeto, você terá desenvolvido uma ferramenta prática que pode ajudar você ou outras pessoas a gerenciar tarefas com eficiência. Este projeto estabelece uma base sólida para projetos de programação mais avançados e aplicações práticas.
